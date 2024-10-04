@@ -1,6 +1,6 @@
 # PORTFOLIO
 This is my QA portfolio.
-[Marbelis Hugo PORTFOLIO](https://bootcamp-qa.github.io/web-portfolio-template)
+[Marbelis Hugo PORTFOLIO]
 
 ## BUILD WITH
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -26,7 +26,7 @@ The testing will validate the core functionalities of the portfolio web applicat
 - Verify that existing functionalities remain unaffected after releases through regression testing at the end of each sprint.
 
 ### 5. Features to be Tested
-[JIRA PROJECT )
+[JIRA PROJECT] [(https://marrqabootcamp.atlassian.net/jira/software/projects/PQA/boards/1/backlog?selectedIssue=PQA-5)]
 The following user stories are included in the testing scope:
 1. **Header Section**: Includes links to LinkedIn and GitHub, and displays the full name and title.
 2. **About Me Section**: Presents a personal introduction.
@@ -65,4 +65,4 @@ Release will be consider ready when:
 
 ## AUTHOR
 Marbelis Hugo, QA Engineer
-[LinkedIn Profile](www.linkedin.com/in/marbelis-h-845909175)
+[LinkedIn Profile](https://www.linkedin.com/in/marbelis-h-/)
