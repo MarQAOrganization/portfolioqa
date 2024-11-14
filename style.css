@@ -68,7 +68,7 @@ input, textarea {
 button {
   width: 100%; 
   padding: 1rem;
-  background-color: #3498db;
+  background-color: #400344;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #400344;
 }
 
 
