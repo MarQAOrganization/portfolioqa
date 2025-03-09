@@ -1,10 +1,9 @@
-
-
 body {
-  background: rgba(239, 183, 238, 0.3) /* Lila background with 10% opacity */  font-size: 1rem; 
+  background: rgba(239, 183, 238, 0.3); /* Lila background with 10% opacity */
+  font-size: 1rem;
   color: #2c3e50;
   background-color: #f4f4f4;
-  padding: 2rem 1rem; 
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -13,6 +12,7 @@ header {
   color: rgb(38, 2, 33);
   padding: 3rem 2rem;
   margin-bottom: 2rem;
+  border-radius: 10px
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -34,25 +34,28 @@ a:hover {
   color: #2980b9;
 }
 
-
-
 main {
   margin: auto 5%;
   text-align: left;
 }
 
 section {
-  margin-bottom: 2.5rem; 
+  margin-bottom: 2.5rem;
+  background-color: #f8f8f8; /* Fondo gris claro */
+  padding: 2rem; /* Aumentar el padding para mejor visualización */
+  border-radius: 8px; /* Mantener bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Mantener sombra */
 }
 
 h2 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  color: #34495e; 
+  color: #34495e;
 }
+
 /* Estilos del formulario */
 form {
-  width: 100%; 
+  width: 100%;
 }
 
 input, textarea {
@@ -66,7 +69,7 @@ input, textarea {
 }
 
 button {
-  width: 100%; 
+  width: 100%;
   padding: 1rem;
   background-color: #400344;
   color: white;
@@ -79,9 +82,51 @@ button:hover {
   background-color: #400344;
 }
 
-
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
   color: #777;
+}
+
+
+/* Estilos específicos para la sección de Certificados */
+section.certificados {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.certificados h4,
+section.certificados h5,
+section.certificados h6 {
+  color: #333;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+section.certificados p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1rem; /* Reducir el tamaño de la fuente a 0.9rem */
+}
+
+section.certificados i.fa-graduation-cap {
+  color: #34495e;
+  margin-right: 0.5rem;
+}
+
+section.certificados h4 {
+  font-size: 1.5rem;
+}
+
+section.certificados h5 {
+  font-size: 1.1rem;
+}
+
+section.certificados h6 {
+  font-size: 1.1rem;
 }
